@@ -27,9 +27,9 @@ this is a bunch
 
 of text
 
-* and
-* a
-* list
+- and
+- a
+- list
 """
         )
         self.assertEqual(actual, "title")
@@ -48,3 +48,4 @@ no title
 
 if __name__ == "__main__":
     unittest.main()
+
